@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+body {
+  max-width: 1440px;
+}
+
+.header {
+  padding: 30px 15px;
+  position: relative;
+  background: url(./src/images/desktop/image-header.jpg) center center no-repeat;
+  width: 1440px;
+  height: 1200px;
+  
+}
+
+.header .logo {
+  /*background: url(./sunnyside-agency/src/images/logo.svg) center center no-repeat;*/
+  display: inline-block;
+}
+  /*font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+}*/
+
+.header nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 5px;
+}
+
+.header ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.header ul li a {
+  color: #ffffff;
+ }
+
+.header ul li:hover {
+  font-weight: bold;
+}
+
+.header h1 {
+  position: absolute;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-size: 35px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: uppercase;
+}
