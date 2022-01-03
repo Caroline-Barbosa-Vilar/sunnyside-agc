@@ -1,9 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Merriweather:wght@900&display=swap');
 
+html{
+  font-size: 62.5%;
+}
 body {
-  max-width: 1440px;
+  display: grid;
+  grid-template-areas: "header header header header"
+                       "hero hero hero hero"
+                       "about about about about"
+                       "services services services services"
+                       "projects projects projects projects"
+                       "contacts contacts contacts contacts"
+                       "footer footer footer footer";
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 1.6rem;
+}
+.header{
+  grid-area: header;
+  background-color: #3dbeff;
+}
+.header .header-container{
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
 }
 
+.hero{
+  grid-area: hero;
+}
+.about{
+  grid-area: about;
+}
+.services{
+  grid-area: services;
+}
+.projects{
+  grid-area: projects;
+}
+.contact{
+  grid-area: contact;
+}
+.footer{
+  grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .header {
   padding: 30px 15px;
   position: relative;
@@ -14,14 +74,14 @@ body {
 }
 
 .header .logo {
-  /*background: url(./sunnyside-agency/src/images/logo.svg) center center no-repeat;*/
+  /*background: url(./sunnyside-agency/src/images/logo.svg) center center no-repeat;
   display: inline-block;
 }
   /*font-weight: 300;
   box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
   font-family: 'Fraunces', serif;
-}*/
+}
 
 .header nav {
   display: inline-block;
@@ -53,3 +113,4 @@ body {
   font-weight: 900;
   text-transform: uppercase;
 }
+*/

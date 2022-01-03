@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Merriweather:wght@900&display=swap');
+
+.header nav ul{
+  display: flex;
+}
+.header nav ul li a{
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: 'Barlow', sans-serif;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+.header nav ul li a:hover{
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
