@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Merriweather:wght@900&family=Montserrat:wght@900&display=swap');
 
 html{
   font-size: 62.5%;
@@ -201,9 +201,47 @@ body {
 }
 .footer{
   grid-area: footer;
+  display: flex;
+  background-color: #75c1b1;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0;
 }
-
-
+.footer h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #326a5f;
+}
+.footer nav{
+  margin: 50px 0;
+}
+.footer nav ul{
+  display: flex;
+  justify-content: center;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.footer nav ul li a{
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #296357;
+  transition: 0.3s;
+}
+.footer nav ul li a:hover{
+  color: #fff;
+  font-size: 1.7rem;
+}
+.footer .social-media{
+  font-size: 2rem;
+}
+.footer .social-media a{
+  margin: 20px;
+  color: #326a5f;
+}
+.footer .social-media a:hover{
+  color: #fff;
+}
 
 
 

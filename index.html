@@ -5,18 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunnyside agency</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./src/favicon_io/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon_io/favicon-32x32.png" />
     <meta name="description" content="Landing page of Sunny side agency" />
 
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variables.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/menu.css" />
+    <link rel="stylesheet" href="src/css/font-awesome.css">
   </head>
 
   <body>
@@ -47,7 +43,7 @@
     <section class="hero">
       <h1>We are creatives</h1>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="item">
         <h2>Transform your brand</h2>
         <p>
@@ -69,49 +65,54 @@
         <a href="" class="btn-learn-more-right">Learn more</a>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="service">
         <!--
         <img src="src/images/desktop/image-graphic-design.jpg" alt="Graphic design service image">-->
-          <div class="design-info">
-            <h3>Graphic design</h3>
-            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
-          </div>
+        <div class="design-info">
+          <h3>Graphic design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients
+            attention.
+          </p>
+        </div>
         <!--  
         <img src="src/images/desktop/image-photography.jpg" alt="Photography service image">-->
-          <div class="photography-info">
-            <h3>Photography</h3>
-            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-          </div>  
+        <div class="photography-info">
+          <h3>Photography</h3>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="project">
         <a href="">
-          <img src="src/images/desktop/image-gallery-milkbottles.jpg" alt="">
+          <img src="src/images/desktop/image-gallery-milkbottles.jpg" alt="" />
         </a>
       </div>
 
       <div class="project">
         <a href="">
-          <img src="src/images/desktop/image-gallery-orange.jpg" alt="">
+          <img src="src/images/desktop/image-gallery-orange.jpg" alt="" />
         </a>
       </div>
 
       <div class="project">
         <a href="">
-          <img src="src/images/desktop/image-gallery-cone.jpg" alt="">
+          <img src="src/images/desktop/image-gallery-cone.jpg" alt="" />
         </a>
       </div>
 
       <div class="project">
         <a href="">
-          <img src="src/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+          <img src="src/images/desktop/image-gallery-sugarcubes.jpg" alt="" />
         </a>
       </div>
     </section>
-    <section class="contact"></section>
-    <footer class="footer"></footer>
 
     <!--
  
@@ -130,25 +131,37 @@
         Jennie F.
         Business Owner
       </section>
-    </main>  
-    <footer>
-        <a href=""></a>
-        <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Services">Services</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
+    </main> -->
+    <footer class="footer" id="contact">
+      <h4>sunnyside</h4>
+        <nav>
+          <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Projects">Projects</a></li>
+          </ul>
+        </nav>
+      
+      <div class="social-media">
+        <a href="">
+          <i class="fab fa-facebook-square"></i>
+        </a>
 
-        <div class="social-media">
+        <a href="">
+          <i class="fab fa-instagram"></i>
+        </a>
 
-        </div>
+        <a href="">
+          <i class="fab fa-twitter-square"></i>
+        </a>
 
-        <div class="copyright">2021 Sunnyside Agency</div>
-    </footer>  
-    <div class="attribution">
+        <a href="">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+    </footer>
+    <!--
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Caroline B Vilar</a>.
-    </div> -->
+      Coded by <a href="#">Caroline B Vilar</a>.-->
   </body>
 </html>
