@@ -9,6 +9,7 @@ body {
                        "hero hero hero hero"
                        "about about about about"
                        "services services services services"
+                       "testimonials testimonials testimonials testimonials"
                        "projects projects projects projects"
                        "contacts contacts contacts contacts"
                        "footer footer footer footer";
@@ -101,10 +102,12 @@ body {
   align-self: flex-start;
 }
 .about .item .btn-learn-more-left{
-  text-decoration-color: #fffecc;
+  text-decoration-color: #fcfaaf;
+  border-radius: 50px;
 }
 .about .item .btn-learn-more-right{
-  text-decoration-color: #ffdbde;
+  text-decoration-color: #fcc8cc;
+  border-radius: 50px;
 }
 .about .image{
   width: 100%;
@@ -167,6 +170,41 @@ body {
 .services .service .photography-info p{
   color: #4094c0;
   margin: 20px auto 0;
+  line-height: 25px;
+}
+.testimonials{
+  grid-area: testimonials;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px;
+}
+.testimonials h3{
+  color: #b7b4b3;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.testimonials .clients{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.testimonials .clients .first-client{
+  color: #7987a0;
+  font-size: 1.2rem;
+}
+.testimonials .clients .second-client{
+  color: #7987a0;
+  font-size: 1.2rem;
+}
+.testimonials .clients .third-client{
+  color: #7987a0;
+  font-size: 1.2rem;
 }
 .projects{
   grid-area: projects;
@@ -207,7 +245,7 @@ body {
   text-align: center;
   padding: 100px 0;
 }
-.footer h4{
+.footer h4 a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 2rem;
@@ -243,69 +281,3 @@ body {
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.header {
-  padding: 30px 15px;
-  position: relative;
-  background: url(./src/images/desktop/image-header.jpg) center center no-repeat;
-  width: 1440px;
-  height: 1200px;
-  
-}
-
-.header .logo {
-  /*background: url(./sunnyside-agency/src/images/logo.svg) center center no-repeat;
-  display: inline-block;
-}
-  /*font-weight: 300;
-  box-sizing: border-box;
-  font-family: 'Barlow', sans-serif;
-  font-family: 'Fraunces', serif;
-}
-
-.header nav {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  margin-top: 5px;
-}
-
-.header ul li {
-  display: inline-block;
-  padding: 15px;
-}
-
-.header ul li a {
-  color: #ffffff;
- }
-
-.header ul li:hover {
-  font-weight: bold;
-}
-
-.header h1 {
-  position: absolute;
-  text-align: center;
-  font-family: 'Fraunces', serif;
-  font-size: 35px;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-*/
