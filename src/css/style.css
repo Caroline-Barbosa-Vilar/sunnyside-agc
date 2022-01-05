@@ -144,7 +144,6 @@ body {
   justify-content: center;
   position: relative;
 }
-
 .services .service .design-info h3{
   color: #326a5f;
   font-family: 'Fraunces', serif;
@@ -174,7 +173,8 @@ body {
 }
 .testimonials{
   grid-area: testimonials;
-  display: grid;
+  display: flex;
+  flex: 1;
   grid-template-columns: repeat(3, 1fr);
   padding: 100px;
 }
@@ -189,9 +189,9 @@ body {
 }
 .testimonials .clients{
   display: flex;
+  flex: 1;
   justify-content: center;
   align-content: center;
-  justify-content: space-between;
   padding: 50px;
 }
 .testimonials .clients .first-client{
