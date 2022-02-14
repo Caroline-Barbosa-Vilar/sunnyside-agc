@@ -4,7 +4,7 @@
   display: flex;
 }
 .header nav ul li a{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: 'Barlow', sans-serif;
   padding: 10px 30px;
@@ -18,7 +18,7 @@
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 1.3rem;
+  transform: scale(1.2);
 }
 .header .menu{
   display: none;
