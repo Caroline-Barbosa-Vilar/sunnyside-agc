@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Merriweather:wght@900&family=Montserrat:wght@900&display=swap');
 
-.header nav ul{
+.header nav ul {
   display: flex;
 }
-.header nav ul li a{
-  font-size: 1.3rem;
+.header nav ul li a { 
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Barlow', sans-serif;
   padding: 10px 30px;
-  color: #fff;
+  color: #ffffff;
   transition: 0.3s ease-in-out;
 }
-.header nav ul li a:hover{
-  color: #000;
-  background-color: #fff;
-  border-radius: 50px;
+.header nav ul li a:nth-child(4) {
   font-family: 'Merriweather', serif;
-  text-transform: uppercase;
+  font-size: 1.3rem;
   font-weight: 900;
-  transform: scale(1.2);
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 50px;
 }
 .header .menu{
   display: none;
@@ -31,7 +31,7 @@
   flex-direction: column;
 }
 .header .hamburguer{
-  background-color: #fff;
+  background-color: #ffffff;
   position: relative;
   display: block;
   width: 30px;
@@ -42,7 +42,7 @@
 }
 .header .hamburguer:before,
 .header .hamburguer:after{
-  background-color: #fff;
+  background-color: #ffffff;
   content: "";
   display: block;
   width: 100%;
