@@ -9,16 +9,26 @@
   font-family: 'Barlow', sans-serif;
   padding: 10px 30px;
   color: #ffffff;
-  transition: 0.3s ease-in-out;
 }
-.header nav ul li a:nth-child(4) {
+.header nav ul li:last-child a {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 30px 10px;
   font-family: 'Merriweather', serif;
   font-size: 1.3rem;
   font-weight: 900;
   color: #000000;
   text-transform: uppercase;
+}
+.header nav ul li:nth-child(n+1):nth-child(-n+3) a:hover {
   background-color: #ffffff;
   border-radius: 50px;
+  padding: 10px 30px 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #000000;
+  text-transform: uppercase;
 }
 .header .menu{
   display: none;
