@@ -171,6 +171,7 @@ body {
   margin: 20px auto 0;
   line-height: 25px;
 }
+
 .testimonials{
   grid-area: testimonials;
   display: flex;
@@ -194,6 +195,9 @@ body {
   align-content: center;
   padding: 50px;
 }
+.testimonials .clients img {
+  border-radius: 100px;
+}
 .testimonials .clients .first-client{
   color: #7987a0;
   font-size: 1.2rem;
@@ -206,6 +210,7 @@ body {
   color: #7987a0;
   font-size: 1.2rem;
 }
+
 .projects{
   grid-area: projects;
   display: grid;
@@ -233,6 +238,7 @@ body {
     grid-template-rows: repeat(4, 1fr);
   }
 }
+
 
 .contact{
   grid-area: contact;
