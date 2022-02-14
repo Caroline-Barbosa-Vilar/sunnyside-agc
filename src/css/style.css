@@ -140,36 +140,42 @@ body {
 .services .service .design-info{
   background: url(../images/desktop/image-graphic-design.jpg) center center no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  position: relative;
+  height: 720px;
 }
 .services .service .design-info h3{
   color: #326a5f;
   font-family: 'Fraunces', serif;
+  font-size: 3rem;
   font-weight: 900;
+  text-align: center;
+  padding-top: 450px
 }
 .services .service .design-info p{
   color: #6bb3a1;
-  margin: 20px auto 0;
   line-height: 25px;
+  text-align: center;
+  width: 340px;
+  margin: 70px auto 0;
 }
 .services .service .photography-info{
   background: url(../images/desktop/image-photography.jpg) center center no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  position: relative;
+  height: 720px;
 }
 .services .service .photography-info h3{
   color: #176186;
   font-family: 'Fraunces', serif;
+  font-size: 3rem;
   font-weight: 900;
+  text-align: center;
+  padding-top: 450px
 }
 .services .service .photography-info p{
   color: #4094c0;
-  margin: 20px auto 0;
   line-height: 25px;
+  text-align: center;
+  width: 340px;
+  margin: 70px auto 0;
 }
 
 .testimonials{
@@ -197,10 +203,19 @@ body {
 }
 .testimonials .clients img {
   border-radius: 100px;
+  width: 70px;
+  margin-bottom: 50px;
 }
-.testimonials .clients .first-client{
+.testimonials .clients p {
+  color: #7987a0;
+  font-size: 1.4rem;
+  width: 250px;
+  text-align: center;
+}
+/* .testimonials .clients .first-client{
   color: #7987a0;
   font-size: 1.2rem;
+  text-align: center;
 }
 .testimonials .clients .second-client{
   color: #7987a0;
@@ -209,7 +224,7 @@ body {
 .testimonials .clients .third-client{
   color: #7987a0;
   font-size: 1.2rem;
-}
+} */
 
 .projects{
   grid-area: projects;
