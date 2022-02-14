@@ -11,7 +11,6 @@ body {
                        "services services services services"
                        "testimonials testimonials testimonials testimonials"
                        "projects projects projects projects"
-                       "contacts contacts contacts contacts"
                        "footer footer footer footer";
   grid-template-columns: repeat(4, 1fr);
   font-size: 1.6rem;
