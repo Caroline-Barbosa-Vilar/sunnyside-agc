@@ -37,11 +37,11 @@ body {
 }
 .hero h1 {
   font-family: 'Fraunces', serif;
-  font-size: 4.3rem;
+  font-size: 6rem;
   color: #fff;
   text-transform: uppercase;
   padding-top: 80px;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
 }
 .hero:after {
   content: url(../images/icon-arrow-down.svg);

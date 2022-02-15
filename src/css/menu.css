@@ -37,7 +37,6 @@
   display: none;
   width: 60px;
   height: 60px;
-  /* align-self: flex-end; */
 }
 .header nav label{
   display: flex;

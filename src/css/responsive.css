@@ -40,8 +40,20 @@
 }
 
 @media (max-width: 768px) {
+  .header nav label {
+    height: 5px;
+  }
+  .hero {
+    height: 130vh;
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 6rem;
+    padding: 160px;
+    text-align: center;
+  }
   .hero:after {
-    bottom: 250px;
+    bottom: 280px;
   }
   .projects {
     grid-template-columns: 1fr 1fr;
@@ -58,11 +70,30 @@
 }
 
 @media(max-width: 425px) {
+  .header nav ul li a {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 8px;
+  }
+  .header nav ul li:last-child a {
+    font-size: 1.2rem;
+    padding: 8px 20px 8px;
+  }
+  .header .menu {
+    width: 50px;
+    height: 50px;
+  }
+  .header nav label {
+    height: 5px;
+  }
   .hero{
-    height: 60vh;
+    height: 75vh;
   }
   .hero h1{
-    font-size: 2rem;
+    font-size: 2.3rem;
+    padding: 100px;
+    text-align: center;
+    letter-spacing: 0.5rem
   }
   .hero:after {
     display: none;
