@@ -4,15 +4,15 @@ My first Frontend Mentor challenge.
 
 Desktop 
 
-[<img src="./src/code-desktop-screen.gif" alt="Coffee shop project screen gif">](https://bo83dev.github.io/coffe-shop/)
+[<img src="./src/suuny-desktop-screen.gif" alt="Sunnyside agc project screen gif">](https://bo83dev.github.io/coffe-shop/)
 
 Tablet
 
-[<img src="./src/code-tablet-screen.gif" alt="Coffee shop project screen gif">]
+[<img src="./src/sunny-tablet-screen.gif" alt="Sunnyside agc project screen gif">]
 
 Mobile
 
-[<img src="./src/code-cel-screen.gif" alt="Coffee shop project screen gif">]
+[<img src="./src/sunny-mobile-screen.gif" alt="Sunnyside agc project screen gif">]
 
 
 
