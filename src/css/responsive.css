@@ -1,27 +1,59 @@
 @media (max-width: 900px) {
-  .header .menu{
+  .header .menu {
     display: block;
+    align-self: flex-end;
   }
-  .header nav ul{
+  .header nav ul {
     display: none;
   }
-  .header input:checked ~ ul{
+  .header nav label{
+    display: flex;
+    flex-direction: column;
+  } 
+  .header input:checked ~ ul {
     display: block;
   }
-  .header nav{
+  .header nav {
     position: absolute;
     top: 8px;
     right: 20px;
     z-index: 1;
   }
-  .header nav ul{
+  .header nav ul {
     width: 200px;
     padding: 20px;
   }
-  .header nav ul a{
+  .header nav ul a {
     text-align: center;
     padding: 20px;
     display: block;
+    margin-bottom: 10px
+  }
+  .testimonials .clients {
+    width: 100%;
+    margin: 80px 0;
+  }
+  .testimonials .clients p{
+    width: 80%;
+    margin-left: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero:after {
+    bottom: 250px;
+  }
+  .projects {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .testimonials .clients {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .testimonials .clients p{
+    width: 80%;
+    margin-left: 15px;
   }
 }
 
@@ -30,12 +62,11 @@
     height: 60vh;
   }
   .hero h1{
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
-}
-
-
-@media (max-width: 425px) {
+  .hero:after {
+    display: none;
+  }
   .about .item {
     text-align: center;
   }
@@ -43,19 +74,34 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
-}
-
-
-@media (max-width: 768px) {
-  .projects {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  .about h2 {
+    width: 300px;
+    align-self: center
   }
-}
-
-@media (max-width: 425px) {
-  .projects {
+  .about .item p {
+    text-align: center;
+  }
+  .about .item a {
+    position: relative;
+    margin: 0 auto;  
+  }
+  .services {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
-}
+  .testimonials h3 {
+    font-size: 1.4rem;
+    margin: 60px auto 0;
+  }
+  .testimonials .clients {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .testimonials .clients img {
+    margin: 10% 0 0 40%;
+  }
+  .testimonials .clients p {
+    margin-left: 35px;
+  }
+} 
