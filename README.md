@@ -4,7 +4,7 @@ My first Frontend Mentor challenge.
 
 Desktop 
 
-[<img src="./src/suuny-desktop-screen.gif" alt="Sunnyside agc project screen gif">](https://bo83dev.github.io/coffe-shop/)
+[<img src="./src/sunny-desktop-screen.gif" alt="Sunnyside agc project screen gif">](https://bo83dev.github.io/sunnyside-agc/)
 
 Tablet
 
