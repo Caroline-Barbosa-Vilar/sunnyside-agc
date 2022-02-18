@@ -53,7 +53,7 @@
     text-align: center;
   }
   .hero:after {
-    bottom: 280px;
+    bottom: 260px;
   }
   .projects {
     grid-template-columns: 1fr 1fr;

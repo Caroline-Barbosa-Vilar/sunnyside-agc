@@ -46,7 +46,7 @@ body {
 .hero:after {
   content: url(../images/icon-arrow-down.svg);
   position: absolute;
-  bottom: 230px;
+  bottom: 200px;
   animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 @-webkit-keyframes downarrow {
