@@ -2,17 +2,19 @@
 
 My first Frontend Mentor challenge.
 
+https://bo83dev.github.io/sunnyside-agc/
+
 Desktop 
 
-[<img src="./src/sunny-desktop-screen.gif" alt="Sunnyside agc project screen gif">](https://bo83dev.github.io/sunnyside-agc/)
+<img src="./src/sunny-desktop-screen.gif" alt="Sunnyside agc project screen gif">
 
 Tablet
 
-[<img src="./src/sunny-tablet-screen.gif" alt="Sunnyside agc project screen gif">]
+<img src="./src/sunny-tablet-screen.gif" alt="Sunnyside agc project screen gif">
 
 Mobile
 
-[<img src="./src/sunny-mobile-screen.gif" alt="Sunnyside agc project screen gif">]
+<img src="./src/sunny-mobile-screen.gif" alt="Sunnyside agc project screen gif">
 
 
 
